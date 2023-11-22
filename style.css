@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+}
+
+.calculator-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 700px;
+}
+.calculator{
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.display-number{
+    width: auto;
+    height: 80px;
+    border: 1px solid green;
+}
+
+.calculator-keys{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button.equals{
+    width: 250px;
+}
+
+button{
+    width: 125px;
+    height: 80px;
+}
+
